@@ -2,6 +2,7 @@
  * Version: 1.0.0.1
  * LastModified: Dec 25 1999
  */
+// Blatently ripped from http://www.onicos.com/staff/iz/amuse/javascript/expert/inflate.txt
 
 /* Interface:
  * data = zip_inflate(src);
@@ -730,8 +731,4 @@ function zip_inflate(str) {
     out = "";
     while((i = zip_inflate_internal(buff, 0, buff.length)) > 0) {
 	for(j = 0; j < i; j++)
-	    out += String.fromCharCode(buff[j]);
-    }
-    zip_inflate_data = null; // G.C.
-    return out;
-}
+	    out +=

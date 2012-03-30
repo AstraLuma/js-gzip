@@ -2,7 +2,7 @@
  * Version: 1.0.1
  * LastModified: Dec 25 1999
  */
-// Blatently ripped from http://www.onicos.com/staff/iz/amuse/javascript/expert/inflate.txt
+// Blatently ripped from http://www.onicos.com/staff/iz/amuse/javascript/expert/deflate.txt
 
 /* Interface:
  * data = zip_deflate(src);
